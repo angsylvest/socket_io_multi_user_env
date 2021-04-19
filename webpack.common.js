@@ -44,4 +44,9 @@ module.exports = {
             template: path.resolve(appDirectory, "index.html"),
         }),
     ],
+
+    node: {
+        fs: 'empty',
+        net: 'empty'
+    }
 }
