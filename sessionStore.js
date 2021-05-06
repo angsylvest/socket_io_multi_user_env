@@ -27,3 +27,4 @@
     InMemorySessionStore
   };
   
+  exports.SessionStore = SessionStore;

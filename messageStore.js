@@ -23,4 +23,6 @@
   module.exports = {
     InMemoryMessageStore,
   };
+
+  exports.MessageStore = MessageStore;
   

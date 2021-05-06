@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"module": "esNext",
+		"esModuleInterop": true,
 		"target": "es5",
 		"moduleResolution": "node",
 		"strict": true,
@@ -16,5 +17,7 @@
 	},
 	"files": [
 		"src/index.ts"
-	]
+	],
+	// added to allow usage of javascript classes  
+	"allowJs": true
 }
